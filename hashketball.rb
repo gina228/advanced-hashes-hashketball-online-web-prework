@@ -31,15 +31,7 @@ def hashketball = {
       },
 
       "Brook Lopez" => {
-        :number => 93,
-        :shoe_size => 12,
-        :stats => {
-          :points => 24,
-          :rebounds => 9,
-          :assists => 13,
-          :steals => 10,
-          :blocks => 6,
-          :slam_dunks => 3
+        
         }
       
     }
