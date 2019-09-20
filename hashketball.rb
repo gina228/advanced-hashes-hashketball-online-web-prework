@@ -8,8 +8,8 @@ def hashketball = {
   }
   
   :away => {
-      :team_name =>
-    :colors =>
+      :team_name => "Charlotte Hornets"
+    :colors => ["Turquoise", "Purple"]
     :players =>
   }
 }
