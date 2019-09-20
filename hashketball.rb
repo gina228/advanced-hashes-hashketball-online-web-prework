@@ -19,11 +19,18 @@ def hashketball = {
       },
 
       "Reggie Evans" => {
-        
+        :number => 30,
+        :shoe => 14,
+        :points => 12,
+        :rebounds => 12,
+        :assists => 12,
+        :steals => 12,
+        :blocks => 12,
+        :slam_dunks => 7 
         }
       },
 
-      "Bang" => {
+      "Brook Lopez" => {
         :number => 93,
         :shoe_size => 12,
         :stats => {
