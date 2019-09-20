@@ -1,7 +1,10 @@
 # Write your code here!
 def hashketball = {
   :home => {
-    :team name:
+    :team_name =>
+    :colors =>
+    :players =>
+   }
   }
   
   :away => {
