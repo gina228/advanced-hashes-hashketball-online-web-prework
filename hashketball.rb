@@ -103,7 +103,7 @@ def hashketball = {
 }
 
 
-def num_points_scored()
+def num_points_scored(player, hashketball)
    player.capitalize!
   if hashketball[:home][:players].include?(player)
    hashketball[:home][:players][player][:stats][:points]
