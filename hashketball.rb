@@ -115,8 +115,16 @@ def num_points_scored(player, hashketball)
 end
 end
 
-def shoe_size()
-  
+def shoe_size(player, hashketball)
+  player.capitalize!
+  if hashketball[:home][:players].include?(player)
+   hashketball[:home][:players][player][:shoe_size]
+  elsif hashketball[:away][:players].include?(player)
+   hashketball[:away][:players][player][:shoe_size]
+  else
+   "No player found."
+  end
+end
 end
 
 def team_colors()
