@@ -127,7 +127,7 @@ def shoe_size(player, hashketball)
 end
 end
 
-def team_colors()
+def team_colors(team, hashketball)
     sym = team.to_sym
   if hashketball.include?(sym)
    hashketball[sym][:colors]
