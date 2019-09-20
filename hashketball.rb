@@ -8,7 +8,9 @@ def hashketball = {
   }
   
   :away => {
-    
+      :team_name =>
+    :colors =>
+    :players =>
   }
 }
 
